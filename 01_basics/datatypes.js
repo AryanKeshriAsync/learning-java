@@ -6,9 +6,10 @@ console.log(3+3);
 console.log("aryan"); //code readibility should be high
 
 let name="Aryan Keshri" //string
-let number=55 //number
+let age=20 //number
 let islearning=true //boolean
 let temp=null
+let xyz
 
 //number=> 2 to power of 53
 //bigint
@@ -16,6 +17,20 @@ let temp=null
 //boolean=>true/false
 //null=>standalone value
 //undefined=>
+//symbol=>unique
+//object
+
 console.log(temp);
+console.log(xyz);
+
+console.log(typeof "aryan"); //string
+console.log(typeof age); //number
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
+
+
+
+
+
 
 
