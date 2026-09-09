@@ -24,15 +24,43 @@ const bigNo=325641258976528776n
 //array,objects,functions
 
 let arr=["aryan","virat","emraan","rdj"]
+let arr2=[1,2,3,4]
+let arr3=[]
 let myObj = {
     name:"Aryan",
     rollNo:21,
     isStudent:true
 }
 
-console.log(arr);
-console.log(myObj);
-console.log(typeof bigNo);
+//  console.log(arr);
+// console.log(myObj);
+// console.log(typeof bigNo);
+// console.log(arr2);
+// console.log(arr3);
+// console.log(typeof arr2);
+// console.table([arr,arr2])
+
+let myFunction=function(){
+    console.log("Hello World!");
+    
+}
+// myFunction();
+
+let func=function(a,b){
+    console.log(a+b);
+    
+}
+// func("hello"," world")
+// func(10,-1)
+
+let func2=function(a,b,c){
+    return a+b+c
+}
+console.log(func2(1,2,3));
+func2(1,2,3)
+
+
+
 
 
 
