@@ -56,8 +56,42 @@ let func=function(a,b){
 let func2=function(a,b,c){
     return a+b+c
 }
-console.log(func2(1,2,3));
-func2(1,2,3)
+// console.log(func2(1,2,3));
+// func2(1,2,3)
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack
+
+let myName="Aryan"
+let myName2=myName
+
+myName2="Aryan Keshri"
+
+console.log(myName); //Aryan
+console.log(myName2); //Aryan Keshri
+
+//heap
+
+let myDetails={
+    email:"aryan@google.com",
+    upiId:"xyz@ibl.com"
+}
+
+let myDetails2=myDetails
+
+myDetails2.email="keshri@yahoo.com"
+
+console.log(myDetails.email);
+console.log(myDetails2.email);
+console.log(myDetails);
+
+
+
+
+
+
+
 
 
 
