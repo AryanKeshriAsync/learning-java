@@ -85,7 +85,7 @@ myDetails2.email="keshri@yahoo.com"
 console.log(myDetails.email);
 console.log(myDetails2.email);
 console.log(myDetails);
-console.log(myDetails2);
+
 
 
 
