@@ -1,11 +1,17 @@
 const name="Aryan Keshri"
 const repo=20
+const id="great@yahoo.in"
 
 // console.log(name + " "+ repo + " counts"); old syntax,recommended not to use 
 
-console.log(`Hello my name is ${name} and my repo count is ${repo}`);
+console.log(`Hello my name is ${name} and my repo count is ${repo} and my id is ${id}`);
 
-let name2= new String('aryan') //another way to define string
+let name2= new String('aryan') //another way to define string //much more recommended to use
+
+let school= new String('NKBPS')
+console.log(`i studied from school ${school}`);
+
+
 
 // console.log(name2);
 // console.log(name2[0]);
@@ -33,6 +39,41 @@ console.log(url.replace('.com','dotcom'));
 
 console.log(url.includes('aryan')); //checks if the char is in the string
 console.log(url.includes('pichai'));
+
+let xyz= new String('Opera')
+xyz.__proto__
+console.log(xyz.slice(-4,5));
+console.log(xyz.charAt(4));
+console.log(xyz.indexOf('O'));
+console.log(xyz.substring(-4,5));
+
+const xyz2= new String('   Opera    ')
+console.log(xyz2);
+console.log(xyz2.trim());
+console.log(`I use ${xyz2} browser`);
+console.log(`I use ${xyz2.trim()} browser`);
+console.log(`I use ${xyz2.trimEnd()} browser`);
+console.log(`I use ${xyz2.trimStart()} browser`);
+
+const userId= new String("cadence@global.co.in")
+console.log(userId.replace(['.co.in'],['.com']));
+console.log(userId.replaceAll(['.'],['dot']));
+console.log(userId.includes('global'));
+console.log(userId.includes('semicon'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
