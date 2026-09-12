@@ -61,6 +61,19 @@ console.log(userId.replaceAll(['.'],['dot']));
 console.log(userId.includes('global'));
 console.log(userId.includes('semicon'));
 
+let words=new String('The quick brown fox jumps over a lazy dog')
+let newWords=words.split(" ")
+console.log(newWords);
+console.log(newWords[4]);
+
+let newWords2=words.split("")
+console.log(newWords2);
+console.log(newWords2[16]);
+
+console.log(words.startsWith("The"));
+console.log(words.startsWith("The",0));
+
+
 
 
 
