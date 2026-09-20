@@ -93,6 +93,15 @@ link=link.replace('.com','Dotcom')
 console.log(link.replace('%20','@'));
 console.log(link.replaceAll('/','-'));
 
+let words=new String("a quick brown fox jumps over the lazy dog")
+let newWords=words.split(" ")
+console.log(newWords);
+console.log(words.includes("fox"));
+console.log(words.includes("cow"));
+
+
+
+
 
 
 

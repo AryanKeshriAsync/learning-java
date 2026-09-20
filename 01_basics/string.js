@@ -56,7 +56,7 @@ console.log(`I use ${xyz2.trimEnd()} browser`);
 console.log(`I use ${xyz2.trimStart()} browser`);
 
 const userId= new String("cadence@global.co.in")
-console.log(userId.replace(['.co.in'],['.com']));
+console.log(userId.replace('.co.in','.com'));
 console.log(userId.replaceAll(['.'],['dot']));
 console.log(userId.includes('global'));
 console.log(userId.includes('semicon'));
