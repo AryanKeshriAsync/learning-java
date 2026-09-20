@@ -65,26 +65,33 @@ let func2=function(a,b,c){
 
 let myName="Aryan"
 let myName2=myName
-
 myName2="Aryan Keshri"
 
-console.log(myName); //Aryan
-console.log(myName2); //Aryan Keshri
+console.log(myName);
+console.log(myName2);
+
+
 
 //heap
 
-let myDetails={
-    email:"aryan@google.com",
-    upiId:"xyz@ibl.com"
+let myInfo={
+    name:"Aryan",
+    course:"BTech",
+    branch:"IT",
+    userNo:1234
 }
 
-let myDetails2=myDetails
+let myInfo2=myInfo
 
-myDetails2.email="keshri@yahoo.com"
+myInfo2.branch="CSE"
 
-console.log(myDetails.email);
-console.log(myDetails2.email);
-console.log(myDetails);
+console.log(myInfo.branch);
+console.log(myInfo2.branch);
+
+myInfo2.userNo=3214
+
+console.log(myInfo);
+console.log(myInfo2);
 
 
 
